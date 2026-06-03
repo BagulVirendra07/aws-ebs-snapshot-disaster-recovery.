@@ -126,7 +126,7 @@ Verified recovered files:
 ```bash
 ls -l /restoretest
 ```
-![Recovery](screenshots/05-restore.png)
+![Recovery](screenshots/06-files-recovered.png)
 
 Recovered Files:
 
