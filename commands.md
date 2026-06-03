@@ -2,9 +2,9 @@
 
 ```bash
 
-lsblk         = Lists all attached storage devices and partitions.
+lsblk                            = Lists all attached storage devices and partitions.
 
-df -h         = Displays disk usage and mounted storage in human-readable format.
+df -h                            = Displays disk usage and mounted storage in human-readable format.
 
 mkfs.ext4 /dev/nvme3n1           =   Creates an EXT4 filesystem on the new EBS volume.
 
