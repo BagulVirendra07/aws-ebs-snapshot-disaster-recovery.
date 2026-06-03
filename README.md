@@ -60,10 +60,12 @@ Recover Data
 
 Created an Amazon Linux EC2 instance.
 
+![EC2-Instance](screenshots/screenshots/07-ec2-instance.png)
 
 ### Step 2: Create EBS Volume
 
 Created a 13 GB gp3 EBS volume.
+![EBS-Volume](screenshots/01-ebs-volume.png)
 
 ### Step 3: Attach EBS Volume
 
@@ -80,6 +82,7 @@ mkdir /testdata
 
 mount /dev/nvme3n1 /testdata
 ```
+![Volume-Mounted](screenshots/02-volume-mounted.png)
 
 ### Step 5: Create Test Data
 
@@ -90,10 +93,12 @@ echo "Customer Data" > /testdata/customer.txt
 
 echo "AWS Disaster Recovery Project" > /testdata/project.txt
 ```
+![Files-Created](screenshots/03-files-created.png)
 
 ### Step 6: Create Snapshot
 
-Created a snapshot of the EBS volume using AWS Console.
+Created a snapshot of the EBS volume.
+![Snapshot-Completed](screenshots/04-snapshot-completed.png)
 
 ### Step 7: Simulate Data Loss
 
@@ -102,6 +107,7 @@ Deleted the files:
 ```bash
 rm -f /testdata/*
 ```
+![Files-Deleted](screenshots/05-files-deleted.png)
 
 Verified that files were removed.
 
