@@ -60,6 +60,7 @@ Recover Data
 
 Created an Amazon Linux EC2 instance.
 
+
 ### Step 2: Create EBS Volume
 
 Created a 13 GB gp3 EBS volume.
@@ -125,6 +126,7 @@ Verified recovered files:
 ```bash
 ls -l /restoretest
 ```
+![Recovery](screenshots/05-restore.png)
 
 Recovered Files:
 
