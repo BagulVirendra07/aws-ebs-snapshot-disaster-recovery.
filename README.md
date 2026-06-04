@@ -1,4 +1,4 @@
-# AWS Automated Backup and Disaster Recovery System
+# AWS Backup and Disaster Recovery System
 
 ## Project Overview
 
